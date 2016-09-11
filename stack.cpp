@@ -114,15 +114,3 @@ Stack<T> &Stack<T>::operator=(const Stack<T> &tmp) {
         }
     }
 }
-
-
-int main() {
-    Stack<int> stack;
-    stack.push(1);
-    stack.push(1);
-    stack.push(2);
-    Stack<int> stack1;
-    stack1 = stack;
-    cout << stack1.pop();
-    return 0;
-}
